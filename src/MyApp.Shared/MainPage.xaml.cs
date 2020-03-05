@@ -26,5 +26,10 @@ namespace MyApp
         {
             this.InitializeComponent();
         }
+
+        private void Button_Click(object sender, RoutedEventArgs e)
+        {
+            (sender as Button).Content = new Random().Next(1, 100);
+        }
     }
 }

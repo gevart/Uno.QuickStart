@@ -27,9 +27,9 @@
     <!-- Note that for WebAssembly version 1.1.1 of the console logger required -->
     <PackageReference Include="Microsoft.Extensions.Logging.Console" Version="1.1.1" />
     <PackageReference Include="Microsoft.Extensions.Logging.Filter" Version="1.1.1" />
-    <PackageReference Include="Uno.UI" Version="2.0.530" />
-    <PackageReference Include="Uno.UI.RemoteControl" Version="2.0.528" Condition="'$(Configuration)'=='Debug'" />
-    <PackageReference Include="Uno.Wasm.Bootstrap" Version="1.0.10" />
+    <PackageReference Include="Uno.UI" Version="2.2.0-dev.38" />
+    <PackageReference Include="Uno.UI.RemoteControl" Version="2.2.0-dev.38" Condition="'$(Configuration)'=='Debug'" />
+    <PackageReference Include="Uno.Wasm.Bootstrap" Version="1.1.0-dev.426" />
     <DotNetCliToolReference Include="Uno.Wasm.Bootstrap.Cli" Version="1.0.8" />
   </ItemGroup>
   <Import Project="..\MyApp.Shared\MyApp.Shared.projitems" Label="Shared" Condition="Exists('..\MyApp.Shared\MyApp.Shared.projitems')" />
